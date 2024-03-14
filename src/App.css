@@ -1,0 +1,40 @@
+
+
+.button {
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+
+
+.button-small {
+    font-size: 1rem;
+}
+
+.button-large {
+    font-size: 3rem; 
+}
+
+.button > svg {
+    color: blue;
+    margin: 0 10px;
+    width: 2vw;
+    height: 2vw;
+}
+
+.success {
+    background-color: green;
+}
+
+.warning {
+    background-color: yellow;
+}
+
+.danger {
+    background-color: orangered;
+}
